@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Barlow";
+    margin: 0;
+    padding: 0;
+    background-image: url("./pedals.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Lexend Giga";
+    font-size: 8em;
+    margin-top: 1em;
+    margin-left: 0.7em;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: "Lexend Giga";
+    font-size: 4em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.mainContent {
+    margin-top: 5%;
+}
+
+.subHeadContainer {
+    margin-left: 108px;
+    background-color: black;
+    width: min-content;
+}
+
+.socials {
+    display: flex;
+    margin-left: 108px;
+    background-color: black;
+    width: min-content;
+    flex-direction: row;
+}
+
+.icon {
+    width: 3em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+#dates {
+    padding-top: 0.5em;
+    background-color: black;
+}
+
+
+.animateLink {
+    color: white;
+    height: 300px;
+    width: 300px;
+  }
+  .animateLink:hover {  
+    -webkit-animation: changeColor 2s forwards;
+    animation: changeColor 2s forwards;
+  }
+  
+  @-webkit-keyframes changeColor{
+    0%{color: white;}
+    100%{color:#161616}
+    }
+  @keyframes changeColor{
+    0%{color: white;}
+    100%{color:#161616}
+    }
+
+
+@media (min-width: 720px) {
+    #dates {
+        width:50%;
+        margin-left: 108px;
+    }
+}
+
+
+
+@media (max-width: 390px) {
+    h1 {
+      font-size: 4em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    body {
+        background-color: black;
+        color: white;
+        font-family: "Barlow";
+        margin: 0;
+        padding: 0;
+        background-image: url("./pedals.jpg");
+        background-size: auto;
+    }
+    .subHeadContainer {
+        margin-left: 3.25em;
+        background-color: black;
+        width: min-content;
+    }  
+    .socials {
+        display: flex;
+        margin-left: 3.25em;
+        background-color: black;
+        width: min-content;
+        flex-direction: row;
+    } 
+    .icon {
+        width: 2em;
+    }
+   
+   
+    
+}
+
+
+
+h2 {
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+
+
+
+a {
+    color: white;
+}
+
+
+
+
+
+
